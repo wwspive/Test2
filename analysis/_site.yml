@@ -1,7 +1,7 @@
-name: "Test2"
+name: Test2
 output_dir: ../docs
 navbar:
-  title: "Test2"
+  title: Test2
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/wwspive/Test2
 output:
   workflowr::wflow_html:
     toc: yes
